@@ -9,7 +9,7 @@ public class CalcTest {
 	@Test
 		public void testSub() {
 			Calc c = new Calc();
-			assertEquals(-10, c.sub(10, 20));
+			assertEquals(10, c.sub(20, 10));
 		}
 	@Test
 		public void testMul() {
